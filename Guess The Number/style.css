@@ -1,0 +1,30 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+main h1{
+     font-size: 90px;
+     text-align: center;
+     margin: 25px;
+}
+
+main p{
+     font-size: 30px;
+     margin: 20px;
+}
+
+main  input{
+     padding: 15px;
+     border: 2px solid;
+     border-radius: 14px;
+     width: 500px;
+     margin: 20px;
+     align-items: center;
+}
+
+main div{
+     margin-left: 200px;
+     margin-right: 200px;
+}
