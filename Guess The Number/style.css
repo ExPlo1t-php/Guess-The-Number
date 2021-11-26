@@ -15,7 +15,7 @@ main p{
      margin: 20px;
 }
 
-main  input{
+main  #input{
      padding: 15px;
      border: 2px solid;
      border-radius: 14px;
@@ -24,7 +24,22 @@ main  input{
      align-items: center;
 }
 
+main #button{
+     border-radius: 14px;
+     align-items: center;
+     padding: 15px;
+}
+
 main div{
      margin-left: 200px;
      margin-right: 200px;
+}
+
+#message{
+     font-size: 20px;
+     color: #D0342C;
+}
+
+body{
+     background-color: aliceblue;
 }
