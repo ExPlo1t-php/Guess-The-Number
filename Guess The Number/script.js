@@ -7,7 +7,7 @@
         let result = 0;
 
 
-
+console.log(initiator);
 function checker(){
      result++;
      numberOfTries--;
@@ -32,6 +32,9 @@ function checker(){
           }else if(initiator == input && result >= 3){
                document.getElementById("message").innerHTML=`Félicitations, vous avez gagné après ${result} tentatives`;
                document.getElementById("message").style.color = "#00ff00";
+               document.getElementById("play-again").style.display = "block";
+               document.getElementById("input").style.display = "none";
+               document.getElementById("button").style.display = "none";
           }else if(input < initiator){
                document.getElementById("message").innerHTML="Plus petite";
           }else if(input > initiator){
@@ -39,6 +42,9 @@ function checker(){
           }else if(initiator == input && result <= 2){
                document.getElementById("message").innerHTML="Bravo, vous etes un Génie !!!";
                document.getElementById("message").style.color = "#FFD700";
+               document.getElementById("play-again").style.display = "block";
+               document.getElementById("input").style.display = "none";
+               document.getElementById("button").style.display = "none";
           } else{
                document.getElementById("message").innerHTML="Error"; }
                break;
